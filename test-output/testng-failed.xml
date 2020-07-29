@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="VivayaMobileEmulator(failed)">
+    <classes>
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="login_as_Seeker"/>
+          <include name="initial_Setup_Emulator"/>
+          <include name="login_as_Guide"/>
+          <include name="login_as_Guide"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+    </classes>
+  </test> <!-- VivayaMobileEmulator(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
